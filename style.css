@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    line-height: 1.5;
+    background: rgb(43, 0, 83);
+    background: darkslategrey;
+    color: white;
+    
+
+}
+
+header {
+    width: 40%;
+    padding: 10px 5%;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(130, 103, 211);
+}
+
+.logo h1 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: limegreen;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.menu li a:hover {
+    color: #ffa200;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 40px 80px;
+    background-color: lightseagreen;
+    color: blue;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:rgb(232, 40, 178);
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: rgb(255, 187, 0);
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.about h3 {
+    font-size: 40px;
+    color:rgb(255, 162, 0);
+    margin-left: 10%;
+}
+
+.about h4 {
+    text-align: left;
+    margin-left: 15%;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(255, 162, 0);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.about p {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+	margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+h2, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+	margin-left: 23%;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+input, 
+textarea, 
+button {
+    width: 30%;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+
+button {
+    background-color: #097bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgba(0,6,49,1);
+    color: #fff;
+    text-align: center;
+    padding: 30px 10%;
+    position: relative;
+}
