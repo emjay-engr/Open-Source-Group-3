@@ -10,11 +10,11 @@
 body {
     font-family: Poppins;
     line-height: 1.5;
-    background: rgb(43, 0, 83);
-    background: darkslategrey;
-    color: white;
     
-
+    background-size: contain;
+    background-image: url('C:\Users\meljun polillo\Downloads\Free Vector _ Digital global technology banner with circuit diagram.jpg');
+    background-position: center;
+    
 }
 
 header {
@@ -26,8 +26,8 @@ header {
 }
 
 .logo h1 {
-    margin: 30px;
-    font-size: 30px;
+    margin: 10px;
+    font-size: 20px;
 }
 
 nav { 
@@ -39,7 +39,7 @@ nav {
 .menu {
     list-style: none;
     display: flex;
-    color: white;
+    color: rgb(52, 26, 225);
 }
 
 .menu li {
@@ -47,7 +47,7 @@ nav {
 }
 
 .menu li a {
-    color: limegreen;
+    color: rgb(22, 55, 164);
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 600;
@@ -55,7 +55,7 @@ nav {
 }
 
 .menu li a:hover {
-    color: #ffa200;
+    color: #ece4d7;
 }
 
 .main {
@@ -64,20 +64,20 @@ nav {
 }
 
 .hero {
-    background-color: cadetblue;
-    color: black;
+    color: white;
     text-align: center;
     padding: 200px 0;
 }
 
 .hero h1 {
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -92,7 +92,7 @@ nav {
 }
 
 .btn:hover {
-    background-color:rgb(232, 40, 178);
+    background-color:rgb(83, 158, 223);
 }
 
 .section {
@@ -101,7 +101,7 @@ nav {
 }
 
 .about h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(255, 187, 0);
     margin-top: 100px;
     margin-bottom: 70px;
@@ -124,11 +124,11 @@ nav {
 }
 
 .about p {
-    text-align: left;
-    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
     font-weight: 600;
-	margin-left: 20%;
-    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 h2, form {
@@ -157,7 +157,7 @@ button {
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0b0909;
     background-color: transparent;
 }
 
@@ -175,9 +175,9 @@ button:hover {
 }
 
 footer {
-    background-color: rgba(0,6,49,1);
+    background-color: rgb(11, 41, 49);
     color: #fff;
     text-align: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     position: relative;
 }
