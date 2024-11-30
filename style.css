@@ -10,19 +10,22 @@
 body {
     font-family: Poppins;
     line-height: 1.5;
+   
+    background-size: cover;
+    background: rgb(76, 90, 90);
     
-    background-size: contain;
-    background-image: url('C:\Users\meljun polillo\Downloads\Free Vector _ Digital global technology banner with circuit diagram.jpg');
-    background-position: center;
+    background-repeat: no-repeat;
+   
+    
     
 }
 
 header {
     width: 40%;
-    padding: 10px 5%;
+    padding: 10px 10%;
     justify-content: space-between;
     align-items: center;
-    color:rgb(130, 103, 211);
+    background-color:rgb(41, 26, 87);
 }
 
 .logo h1 {
@@ -34,6 +37,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .menu {
@@ -47,7 +51,7 @@ nav {
 }
 
 .menu li a {
-    color: rgb(22, 55, 164);
+    color: rgb(36, 43, 65);
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 600;
@@ -55,7 +59,7 @@ nav {
 }
 
 .menu li a:hover {
-    color: #ece4d7;
+    color: #778f3b;
 }
 
 .main {
@@ -64,7 +68,7 @@ nav {
 }
 
 .hero {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 200px 0;
 }
@@ -102,14 +106,14 @@ nav {
 
 .about h2 {
     font-size: 50px;
-    color: rgb(255, 187, 0);
+    color: hwb(212 8% 76%);
     margin-top: 100px;
     margin-bottom: 70px;
 }
 
 .about h3 {
     font-size: 40px;
-    color:rgb(255, 162, 0);
+    color:hwb(212 8% 76%);
     margin-left: 10%;
 }
 
@@ -118,7 +122,7 @@ nav {
     margin-left: 15%;
     font-size: 40px;
     font-weight: 800;
-    color: rgb(255, 162, 0);
+    color: hwb(212 8% 76%);
     margin-bottom: 40px;
     margin-top: 40px;
 }
